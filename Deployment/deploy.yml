@@ -1,0 +1,18 @@
+---
+- name: Pull Docker Image of Calculator
+  hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  tasks:
+    - name: Pull Docker image
+      docker_image:
+        name: bambo0st/calculator:latest
+        source: pull
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+
+    - name: Run Docker container
+      shell: docker run -it -d --name Calculator bambo0st/calculator
