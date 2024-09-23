@@ -1,1 +1,2 @@
-localhost ansible_user=adithya ansible_connection=local localhost ansible_become_pass=adithya123
+[local]
+localhost ansible_user=adithya ansible_connection=local ansible_become_pass=adithya123
