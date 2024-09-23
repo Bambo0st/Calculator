@@ -40,7 +40,7 @@ public class CalculatorTest {
         int a = 2;
         int b = 2;
         int expectedResult=3;
-        Assert.assertNotEquals(expectedResult, calculator.sub(a, b))    ;
+        Assert.assertNotEquals(expectedResult, calculator.sub(a, b));
     }
 
 }
