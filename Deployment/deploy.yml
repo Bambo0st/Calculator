@@ -1,18 +1,32 @@
 ---
 - name: Pull Docker Image of Calculator
   hosts: all
+  become: yes  # Ensure sudo privileges for system-level tasks like Docker
   vars:
-    ansible_python_interpreter: /usr/bin/python3
+    ansible_python_interpreter: /usr/bin/python3.8  # Use Python 3.8 interpreter
+
   tasks:
-    - name: Pull Docker image
-      docker_image:
-        name: bambo0st/calculator:latest
-        source: pull
+    - name: Ensure Docker is installed
+      apt:
+        name: docker.io
+        state: present
+      become: yes
 
     - name: Start Docker service
       service:
         name: docker
         state: started
+        enabled: true  # Enable Docker service at startup
+      become: yes
 
-    - name: Run Docker container
-      shell: docker run -it -d --name Calculator bambo0st/calculator
+    - name: Pull Docker image of Calculator
+      shell: docker pull bambo0st/calculator:latest
+      args:
+        warn: false
+      become: yes
+
+    - name: Run Docker container for Calculator
+      shell: docker run -it -d --name Calculator bambo0st/calculator:latest
+      args:
+        warn: false
+      become: yes
