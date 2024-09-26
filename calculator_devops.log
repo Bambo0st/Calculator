@@ -60,3 +60,66 @@
 2024-09-23 16:35:50.468 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 1.0, [RESULT] 1.0
 2024-09-23 16:35:50.468 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 4.0, [RESULT] 24.0
 2024-09-23 16:35:50.468 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 5.0, [RESULT] 120.0
+2024-09-23 18:23:52.428 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 2.0, [RESULT] 1.4142135623730951
+2024-09-23 18:24:10.733 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 10.0, [RESULT] 2.302585092994046
+2024-09-23 18:24:10.736 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 100.0, [RESULT] 4.605170185988092
+2024-09-23 18:24:10.737 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 1.0, [RESULT] 0.0
+2024-09-23 18:24:10.737 [main] WARN  org.example.Main - Invalid input for natural logarithm: -100.0
+2024-09-23 18:24:10.738 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 2.0, [INPUT2] 2.0, [RESULT] 4.0
+2024-09-23 18:24:10.740 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 5.0, [INPUT2] 2.0, [RESULT] 25.0
+2024-09-23 18:24:10.740 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 3.0, [INPUT2] 1.0, [RESULT] 3.0
+2024-09-23 18:24:10.740 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 10.0, [INPUT2] 0.0, [RESULT] 1.0
+2024-09-23 18:24:10.741 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 4.0, [RESULT] 2.0
+2024-09-23 18:24:10.741 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 9.0, [RESULT] 3.0
+2024-09-23 18:24:10.741 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 16.0, [RESULT] 4.0
+2024-09-23 18:24:10.741 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 2.0, [RESULT] 1.4142135623730951
+2024-09-23 18:24:10.742 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 10.0, [RESULT] 2.302585092994046
+2024-09-23 18:24:10.742 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 100.0, [RESULT] 4.605170185988092
+2024-09-23 18:24:10.742 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 1.0, [RESULT] 0.0
+2024-09-23 18:24:10.744 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 2.0, [RESULT] 2.0
+2024-09-23 18:24:10.744 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 3.0, [RESULT] 6.0
+2024-09-23 18:24:10.744 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 4.0, [RESULT] 24.0
+2024-09-23 18:24:10.744 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 5.0, [RESULT] 120.0
+2024-09-23 18:24:10.745 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 4.0, [RESULT] 2.0
+2024-09-23 18:24:10.745 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 9.0, [RESULT] 3.0
+2024-09-23 18:24:10.745 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 15.0, [RESULT] 3.872983346207417
+2024-09-23 18:24:10.745 [main] WARN  org.example.Main - Invalid input for square root: -9.0
+2024-09-23 18:24:10.747 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 2.0, [INPUT2] 2.0, [RESULT] 4.0
+2024-09-23 18:24:10.747 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 5.0, [INPUT2] 3.0, [RESULT] 125.0
+2024-09-23 18:24:10.747 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 3.0, [INPUT2] 1.0, [RESULT] 3.0
+2024-09-23 18:24:10.747 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 10.0, [INPUT2] 0.0, [RESULT] 1.0
+2024-09-23 18:24:10.747 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 0.0, [RESULT] 1.0
+2024-09-23 18:24:10.748 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 1.0, [RESULT] 1.0
+2024-09-23 18:24:10.748 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 4.0, [RESULT] 24.0
+2024-09-23 18:24:10.748 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 5.0, [RESULT] 120.0
+2024-09-24 00:09:15.622 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 10.0, [RESULT] 2.302585092994046
+2024-09-24 00:09:15.624 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 100.0, [RESULT] 4.605170185988092
+2024-09-24 00:09:15.624 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 1.0, [RESULT] 0.0
+2024-09-24 00:09:15.624 [main] WARN  org.example.Main - Invalid input for natural logarithm: -100.0
+2024-09-24 00:09:15.625 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 2.0, [INPUT2] 2.0, [RESULT] 4.0
+2024-09-24 00:09:15.625 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 5.0, [INPUT2] 2.0, [RESULT] 25.0
+2024-09-24 00:09:15.626 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 3.0, [INPUT2] 1.0, [RESULT] 3.0
+2024-09-24 00:09:15.627 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 10.0, [INPUT2] 0.0, [RESULT] 1.0
+2024-09-24 00:09:15.627 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 4.0, [RESULT] 2.0
+2024-09-24 00:09:15.627 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 9.0, [RESULT] 3.0
+2024-09-24 00:09:15.627 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 16.0, [RESULT] 4.0
+2024-09-24 00:09:15.628 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 2.0, [RESULT] 1.4142135623730951
+2024-09-24 00:09:15.628 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 10.0, [RESULT] 2.302585092994046
+2024-09-24 00:09:15.628 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 100.0, [RESULT] 4.605170185988092
+2024-09-24 00:09:15.628 [main] INFO  org.example.Main - [OPERATION] Natural Logarithm, [INPUT] 1.0, [RESULT] 0.0
+2024-09-24 00:09:15.629 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 2.0, [RESULT] 2.0
+2024-09-24 00:09:15.629 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 3.0, [RESULT] 6.0
+2024-09-24 00:09:15.629 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 4.0, [RESULT] 24.0
+2024-09-24 00:09:15.629 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 5.0, [RESULT] 120.0
+2024-09-24 00:09:15.630 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 4.0, [RESULT] 2.0
+2024-09-24 00:09:15.630 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 9.0, [RESULT] 3.0
+2024-09-24 00:09:15.630 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 15.0, [RESULT] 3.872983346207417
+2024-09-24 00:09:15.630 [main] WARN  org.example.Main - Invalid input for square root: -9.0
+2024-09-24 00:09:15.630 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 2.0, [INPUT2] 2.0, [RESULT] 4.0
+2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 5.0, [INPUT2] 3.0, [RESULT] 125.0
+2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 3.0, [INPUT2] 1.0, [RESULT] 3.0
+2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 10.0, [INPUT2] 0.0, [RESULT] 1.0
+2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 0.0, [RESULT] 1.0
+2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 1.0, [RESULT] 1.0
+2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 4.0, [RESULT] 24.0
+2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 5.0, [RESULT] 120.0
