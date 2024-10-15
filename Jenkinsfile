@@ -33,8 +33,8 @@ pipeline {
         stage('Stage 5: Clean Docker Images') {
             steps {
                 script {
-                    sh 'docker container prune -f'
-                    sh 'docker image prune -f'
+                    sh 'docker rm -f Calculator'
+                    sh 'docker rmi -f docker rmi -f bambo0st/calculator:latest'
                 }
             }
         }
