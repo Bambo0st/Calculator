@@ -34,7 +34,7 @@ pipeline {
             steps {
                 script {
                     sh 'docker rm -f Calculator'
-                    sh 'docker rmi $(docker images --filter "dangling=true" --filter "reference=bambo0st/calculator" -q)'
+                    sh 'docker rmi $(docker images --filter "dangling=true" --filter "reference=bambo0st/calculator" -q)||true'
                 }
             }
         }
