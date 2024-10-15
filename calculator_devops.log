@@ -123,3 +123,6 @@
 2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 1.0, [RESULT] 1.0
 2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 4.0, [RESULT] 24.0
 2024-09-24 00:09:15.631 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 5.0, [RESULT] 120.0
+2024-09-26 21:38:43.427 [main] INFO  org.example.Main - [OPERATION] Square Root, [INPUT] 9.0, [RESULT] 3.0
+2024-09-26 21:38:59.427 [main] INFO  org.example.Main - [OPERATION] Factorial, [INPUT] 5.0, [RESULT] 120.0
+2024-09-26 21:39:14.127 [main] INFO  org.example.Main - [OPERATION] Power, [INPUT1] 4.0, [INPUT2] 3.0, [RESULT] 64.0
