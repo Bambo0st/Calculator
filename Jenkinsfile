@@ -33,7 +33,7 @@ pipeline {
         stage('Stage 5: Clean Docker Images') {
             steps {
                 script {
-                    sh 'docker rm -f Calculator'
+                    sh 'docker rm -f Calculator || true'
                     sh 'docker rmi $(docker images --filter "dangling=true" --filter "reference=bambo0st/calculator" -q)||true'
                 }
             }
